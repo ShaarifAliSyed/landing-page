@@ -4330,6 +4330,50 @@ textarea.form-control-lg {
   }
 }
 
+/* Mobile-specific styles */
+@media (max-width: 575.98px) {
+  .card {
+    flex-direction: column; /* Stack content vertically */
+    margin-bottom: 1rem; /* Space between cards */
+    width: 100%; /* Full width for cards */
+    padding: 0; /* Remove default padding */
+  }
+
+  .d-flex {
+    flex-direction: column; /* Stack image and text vertically */
+  }
+
+  .card-body {
+    padding: 1rem; /* Adjust padding for better fit */
+  }
+
+  .card img {
+    width: 100%; /* Full width images */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 1rem; /* Space between text and image */
+  }
+
+  .p-5 {
+    padding: 1rem !important; /* Override with smaller padding */
+  }
+
+  h2.fw-bolder {
+    font-size: 1.5rem; /* Adjust heading size for mobile */
+    margin-bottom: 0.5rem; /* Space below heading */
+  }
+
+  ul {
+    padding-left: 1.25rem; /* Adjust list padding */
+  }
+
+  li {
+    font-size: 1rem; /* Adjust list item font size */
+    line-height: 1.5; /* Better readability */
+    margin-bottom: 0.5rem; /* Space between list items */
+  }
+}
+
+
 .accordion {
   --bs-accordion-color: #212529;
   --bs-accordion-bg: #fff;
