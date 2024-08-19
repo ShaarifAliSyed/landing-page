@@ -4331,7 +4331,7 @@ textarea.form-control-lg {
 }
 
 /* Mobile-specific styles */
-@media (max-width: 575.98px) {
+@media (max-width: 767px) {
   .card {
     flex-direction: column; /* Stack content vertically */
     margin-bottom: 1rem; /* Space between cards */
